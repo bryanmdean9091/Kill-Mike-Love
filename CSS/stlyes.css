@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 125px;
+    width: 100%;
+    background-color: red;
+    border-bottom: solid yellowgreen  30px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.logo {
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: -100px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 25px;
+}
+ nav ul li a{
+    margin-top: -100px;
+    font-family: serif;
+    font-size: 40px;
+    color: yellow;
+    margin-right: 20px;
+    text-decoration: none;
+ }
+
+ nav ul li a:hover {
+    color: seashell;
+ }
+ /* end of nav bar */
+
+ body {
+    background-color: yellow;
+ }
+/* start of header */
+
+.container{
+    background-image: url(./images/Screenshot\ 2022-07-04\ 162113Mlove.png);
+    height: 550px;
+    width: 420px;
+    border: 20px solid red;
+    margin-left: 33.33%;
+}
+
+.left-eye{
+    font-family: courier;
+    font-size: 140px;
+    margin-top: 240px;
+    margin-left: 75px;
+}
+
+.right-eye{
+    font-family: courier;
+    font-size: 140px;
+    margin-left: 220px;
+    margin-top: -175px ;
+}
